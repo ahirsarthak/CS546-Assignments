@@ -1,0 +1,22 @@
+  {{#if hasErrors}}
+<h1>Not Found</h1>
+  <p class="not-found">{{error}}</p>
+
+
+{{else}}
+<h1>Characters Found</h1>
+
+<h2>{{searchTerm}}</h2>
+<main>
+  <ul>
+    {{#each characters}}
+    <li><a href="/characters/{{this.id}}">{{this.name}}</a></li>
+    {{/each}}
+  </ul>
+</main>
+{{/if}}
+
+
+<a href="/">Make another search</a>  
+
+

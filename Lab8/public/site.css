@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+dl.changes {
+  color: darkblue;
+}
+
+html,
+body {
+  font-size: 12pt;
+}
+
+html {
+  font-weight: lighter;
+}
+
+#firstTerm {
+  color: #131313;
+}
+
+body {
+  background: #dedede;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 14px 24px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+p {
+  color: rgb(65, 65, 206);
+  text-transform: uppercase;
+}
+
+dd {
+  margin-bottom: 1rem;
+}
+
+body {
+  background: #d2f0cf;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(10, 40, 100);
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.45rem;
+}
+
+h3 {
+  font-size: 1.45rem;
+}
+
+h4 {
+  font-size: 1.24rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}

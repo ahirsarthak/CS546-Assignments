@@ -1,0 +1,21 @@
+<main>
+{{#each charac}}  <div>
+    <h1>{{this.name}}</h1>
+    <img alt="{{this.name}}" src="{{this.thumbnail.path}}/portrait_medium.jpg">  
+    <dl>
+      <dd>{{this.description}}</dd>
+
+       <h2>Comics</h2>
+      <dd>
+        <ul>
+          {{#each this.comics.items}}
+            <li>{{this.name}}</li>
+          {{/each}}
+        </ul>
+      </dd>
+
+      
+    </dl>
+  </div>
+  {{/each }}
+</main>

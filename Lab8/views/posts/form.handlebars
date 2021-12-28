@@ -1,0 +1,14 @@
+<main>
+  <h1>Input search term</h1>
+  <p>This app is build for to find different movies from search term and Character ID with the help of marvel API</p>
+
+  <form method="POST" action="/search" class="search-form">
+
+    <label>
+      Search Term
+      <input type="text" name="searchTerm" placeholder="search term" value="{{post.body}}">  
+    </label>
+    <button type="submit">Submit search term</button>
+  </form>
+
+</main>

@@ -1,0 +1,18 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "Sarthak's Lab6",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sarthak Ahir 10479028",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.7.3"
+  }
+}

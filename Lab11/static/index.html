@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV MAZE</title>
+    <link rel="stylesheet" href="/public/css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>TV API</h1>
+    </header>
+    <form id="searchForm">
+      <label for="search_term">
+      <input
+        type="text"
+        id="search_term"
+        name="input_search_term"
+        placeholder="Enter search term"
+      /></label>
+      <button id="submit-button" type="submit">Submit</button><br /><br />
+    </form>
+      <h2 id="errormessage" class="error"hidden>Please provide a proper input.</h2>
+      <ul id="showList" hidden></ul>
+      <div id="show"></div>
+      <a id="homeLink" href="/" hidden> Back to All Shows</a><br /><br />
+
+    <footer>  Sarthak Ahir ||  CWID: 10479028  ||  lab11  </footer>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/public/js/script.js"></script>
+  </body>
+</html>

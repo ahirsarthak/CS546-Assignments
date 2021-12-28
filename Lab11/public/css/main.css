@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #dadada;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15pt;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+p.error {
+  color: red;
+}
