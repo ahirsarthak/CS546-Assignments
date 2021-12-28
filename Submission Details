@@ -1,0 +1,22 @@
+ 
+Grade:	85 / 100
+
+
+-5; questionThree did not produce the correct output 
+	 Test Case: []  ("") 
+	 Your Output: "", 
+	 Expected Output: {}
+  -5; questionThree did not produce the correct output 
+	 Test Case: act,bear,tac,cat 
+	 Your Output: "{act : [act, tac, cat]}",  
+	 Expected Output: { 
+          act: ["act", "tac", "cat"]
+        }
+  -5; questionThree did not produce the correct output 
+	 Test Case: ['rare', 'rear', 'rawr', 'rare', 'bee', 'ebe']
+        } 
+	 Your Output: "{{rare : [rare, rear, rare]}undefined : [bee, ebe]}",  
+	 Expected Output: {
+          aerr: ["rare", "rear"],
+          bee: ["bee", "ebe"]
+        }
