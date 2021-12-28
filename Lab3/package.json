@@ -1,0 +1,19 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "lab 3 of 546",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sarthak Ahir 10479028",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "regenerator-runtime": "^0.13.9",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
